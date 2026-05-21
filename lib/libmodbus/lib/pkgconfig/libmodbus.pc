@@ -1,0 +1,10 @@
+prefix=/home/linux/study_tmp/rs485_test/libmodbus/libmodbus/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: modbus
+Description: Modbus library
+Version: 3.1.12
+Libs: -L${libdir} -lmodbus
+Cflags: -I${includedir}/modbus
